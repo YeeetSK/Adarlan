@@ -1,0 +1,318 @@
+
+
+body {
+    height: 1800px;
+    background-image:url(images/desktop___2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1000px) and (min-height: 500px) {
+    body {
+      zoom: 60%; /* Adjust the zoom level as per your requirement */
+    }
+  }
+  
+
+  @media (min-width: 1800px) and (min-height: 931px){
+    body {
+      zoom: 83%; /* Adjust the zoom level as per your requirement */
+    }
+  }
+
+ 
+
+.infoheader {
+    position: absolute;
+    width: 624px;
+    height: 90px;
+    left: calc(50% - 625px/2 - 3.5px);
+    top: 280px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 116px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.about {
+    position: absolute;
+    width: 1222px;
+    height: 528px;
+    left: calc(50% - 1222px/2 - 3.5px);
+    top: 502px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    
+
+}
+
+
+
+
+.infosection {
+    opacity: 70%;
+    transition-duration: 0.8s; 
+}
+
+.infosection:hover {
+    opacity: 100%;
+    transition-duration: 0.8s;
+}
+
+.behindinfotext {
+    
+    position: absolute;
+    left: calc(50% - 1299px/2 - 3.5px);
+    top: 254px;
+}
+
+
+
+/* 
+The top part, copy to other pages, */
+
+.behindinfopage {
+    position: absolute;
+    width: 250px;
+    height: 99px;
+    left: calc(25% - 250px/2 - 3.5px);
+    top: 57px;
+
+}
+
+.infopage {
+    position: absolute;
+    width: 259px;
+    height: 64px;
+    left: calc(25% - 259px/2 - 3.5px);
+    top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.behindatpage {
+    
+    position: absolute;
+    width: 250px;
+    height: 99px;
+    left: calc(41% - 250px/2 - 3.5px);
+    top: 57px;
+}
+
+.atpage {
+
+    position: absolute;
+    width: 237px;
+    height: 44px;
+    left: calc(41% - 237px/2 - 3.5px);
+    top: 50px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.behindstorepage {
+    position: absolute;
+    width: 250px;
+    height: 99px;
+    left: calc(57% - 250px/2 - 3.5px);
+    top: 57px;
+
+}
+
+.obchodpage {
+    position: absolute;
+    width: 285px;
+    height: 44px;
+    left: calc(57% - 285px/2 - 3.5px);
+    top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.behinddynmappage {
+    position: absolute;
+    width: 250px;
+    height: 99px;
+    left: calc(73% - 250px/2 - 3.5px);
+    top: 57px;
+}
+
+.DynMapPage {
+    position: absolute;
+    width: 169px;
+    height: 44px;
+    left: calc(73% - 170px/2 - 3.5px);
+    top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.InfoTogether:hover {
+    opacity: 80%;
+    transition-duration: 0.3s;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.4);
+}
+
+.InfoTogether {
+    transition-duration: 0.3s;
+}
+
+.A-teamTogether:hover {
+    opacity: 80%;
+    transition-duration: 0.3s;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.4);
+}
+
+.A-teamTogether {
+    transition-duration: 0.3s;
+}
+
+.ObchodTogether:hover {
+    opacity: 80%;
+    transition-duration: 0.3s;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.4);
+}
+
+.ObchodTogether {
+    transition-duration: 0.3s;
+}
+
+.DynmapTogether:hover {
+    opacity: 80%;
+    transition-duration: 0.3s;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.4);
+}
+
+.DynmapTogether {
+    transition-duration: 0.3s;
+}
+
+.discordicon {
+    position: absolute;
+    width: 97px;
+    height: 95px;
+    left: calc(86% - 97px/2 - 3.5px);
+    top: 56px;
+}
+
+.discordicon:hover {
+    opacity: 70%;
+    transition-duration: 0.3s;
+}
+
+.tiktokicon {
+    position: absolute;
+    width: 98px;
+    height: 95px;
+    left: calc(93% - 98px/2 - 3.5px);
+    top: 56px;
+}
+
+.tiktokicon:hover {
+    opacity: 70%;
+    transition-duration: 0.3s;
+}
+
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 357px;
+    left: 0px;
+    top: 1459px;
+}
+
+.ip {
+    position: absolute;
+    width: 533px;
+    height: 46px;
+    left: 43px;
+    top: 1550px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+
+}
+
+.extrainfo {
+    position: absolute;
+    width: 953px;
+    height: 121px;
+    left: 43px;
+    top: 1630px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
+}
+
+.homeicon {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    left: calc(13% - 250px/2 - 3.5px);
+    top: 49px;
+
+}
+
+.homeicon:hover {
+    opacity: 70%;
+}
+
+/* Koniec hornej casti*/

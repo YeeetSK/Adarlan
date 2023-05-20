@@ -1,0 +1,694 @@
+body {
+    height: 1800px;
+    background-image:url(images/desktop___2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1000px) and (min-height: 500px) {
+    body {
+      zoom: 60%; /* Adjust the zoom level as per your requirement */
+    }
+  }
+  
+
+  @media (min-width: 1800px) and (min-height: 931px){
+    body {
+      zoom: 83%; /* Adjust the zoom level as per your requirement */
+    }
+  }
+  
+
+ 
+  
+
+
+
+/* Copy to other pages */
+
+.behindinfopage {
+    position: absolute;
+    width: 250px;
+    height: 99px;
+    left: calc(25% - 250px/2 - 3.5px);
+    top: 57px;
+
+}
+
+.infopage {
+    position: absolute;
+    width: 259px;
+    height: 64px;
+    left: calc(25% - 259px/2 - 3.5px);
+    top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.behindatpage {
+    
+    position: absolute;
+    width: 250px;
+    height: 99px;
+    left: calc(41% - 250px/2 - 3.5px);
+    top: 57px;
+}
+
+.atpage {
+
+    position: absolute;
+    width: 237px;
+    height: 44px;
+    left: calc(41% - 237px/2 - 3.5px);
+    top: 50px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.behindstorepage {
+    position: absolute;
+    width: 250px;
+    height: 99px;
+    left: calc(57% - 250px/2 - 3.5px);
+    top: 57px;
+
+}
+
+.obchodpage {
+    position: absolute;
+    width: 285px;
+    height: 44px;
+    left: calc(57% - 285px/2 - 3.5px);
+    top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.behinddynmappage {
+    position: absolute;
+    width: 250px;
+    height: 99px;
+    left: calc(73% - 250px/2 - 3.5px);
+    top: 57px;
+}
+
+.DynMapPage {
+    position: absolute;
+    width: 169px;
+    height: 44px;
+    left: calc(73% - 170px/2 - 3.5px);
+    top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.InfoTogether:hover {
+    opacity: 80%;
+    transition-duration: 0.3s;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.4);
+}
+
+.InfoTogether {
+    transition-duration: 0.3s;
+}
+
+.A-teamTogether:hover {
+    opacity: 80%;
+    transition-duration: 0.3s;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.4);
+}
+
+.A-teamTogether {
+    transition-duration: 0.3s;
+}
+
+.ObchodTogether:hover {
+    opacity: 80%;
+    transition-duration: 0.3s;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.4);
+}
+
+.ObchodTogether {
+    transition-duration: 0.3s;
+}
+
+.DynmapTogether:hover {
+    opacity: 80%;
+    transition-duration: 0.3s;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.4);
+}
+
+.DynmapTogether {
+    transition-duration: 0.3s;
+}
+
+.discordicon {
+    position: absolute;
+    width: 97px;
+    height: 95px;
+    left: calc(86% - 97px/2 - 3.5px);
+    top: 56px;
+}
+
+.discordicon:hover {
+    opacity: 70%;
+    transition-duration: 0.3s;
+}
+
+.tiktokicon {
+    position: absolute;
+    width: 98px;
+    height: 95px;
+    left: calc(93% - 98px/2 - 3.5px);
+    top: 56px;
+}
+
+.tiktokicon:hover {
+    opacity: 70%;
+    transition-duration: 0.3s;
+}
+
+
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 357px;
+    left: 0px;
+    top: 1459px;
+}
+
+.ip {
+    position: absolute;
+    width: 533px;
+    height: 46px;
+    left: 43px;
+    top: 1550px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+
+}
+
+.extrainfo {
+    position: absolute;
+    width: 953px;
+    height: 121px;
+    left: 43px;
+    top: 1630px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
+}
+
+.homeicon {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    left: calc(13% - 250px/2 - 3.5px);
+    top: 49px;
+
+}
+
+.homeicon:hover {
+    opacity: 70%;
+}
+
+/* Koniec top partu */
+
+.FooterPhoto {
+    position: absolute;
+    width: 1444px;
+    height: 290px;
+    left: -4px;
+    top: 1527px;
+
+}
+
+.FooterText {
+    position: absolute;
+    width: 1294px;
+    height: 144px;
+    left: calc(50% - 1294px/2);
+    top: 1600px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.BehindAteam {
+    position: absolute;
+    width: 1006px;
+    height: 151px;
+    left: calc(50% - 1006px/2 + 1px);
+    top: 243px;
+}
+
+.A-TeamText {
+    position: absolute;
+    width: 634px;
+    height: 82px;
+    left: calc(50% - 635px/2 + 1px);
+    top: 170px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 116px;
+    text-align: center;
+    transition-duration: 0.8s;
+    opacity: 70%;
+
+    color: #FFFFFF;
+
+}
+.A-TeamText:hover {
+    opacity: 100%;
+    transition-duration: 0.8s;
+}
+
+.AgroBehind {
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    left: calc(35% - 600px/2 + 1px);
+    top: 455px;
+}
+
+.LukBehind {
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    left: calc(65% - 600px/2 + 1px);
+    top: 455px;
+}
+
+.LukHead {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: calc(55% - 64px/2);
+    top: 473px;
+}
+
+.LukText {
+    position: absolute;
+    width: 169px;
+    height: 51px;
+    left: calc(52% - 169px/2 + 351.5px);
+    top: 445px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.AtTextLuk {
+    position: absolute;
+    width: 55px;
+    height: 48px;
+    left: calc(62% - 55px/2);
+    top: 445px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #B81111;
+
+}
+
+.Luk {
+    opacity: 70%;
+    transition-duration: 0.8s;
+}
+
+.Luk:hover {
+    opacity: 100%;
+    transition-duration: 0.8s;
+}
+
+.AgroHead {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: calc(25% - 64px/2 + 1px);
+    top: 473px;
+}
+
+.AgroText {
+    position: absolute;
+    width: 249px;
+    height: 48px;
+    left: calc(40% - 250px/2 + 1px);
+    top: 445px;
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.VedeniTextAgro {
+    position: absolute;
+    width: 139px;
+    height: 48px;
+    left: calc(32% - 140px/2 + 1px);
+    top: 445px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #35CD00;
+}
+
+.Agro {
+    opacity: 70%;
+    transition-duration: 0.8s;
+}
+
+.Agro:hover {
+    opacity: 100%;
+    transition-duration: 0.8s;
+}
+
+.YeetBehind {
+    position: absolute;
+    width: 535px;
+    height: 107px;
+    left: calc(50% - 535px/2 + 1px);
+    top: 585px;
+
+}
+
+.YeetHead {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: calc(42% - 64px/2 + 1px);
+    top: 606px;
+}
+
+.YeetText {
+    position: absolute;
+    width: 196px;
+    height: 48px;
+    left: calc(56% - 196px/2 + 1px);
+    top: 575px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.ManazerTextYeet {
+    position: absolute;
+    width: 173px;
+    height: 48px;
+    left: calc(48% - 173px/2 + 1px);
+    top: 575px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    
+    color: #C32697;
+}
+
+.Yeet {
+    opacity: 70%;
+    transition-duration: 0.8s;
+}
+
+.Yeet:hover {
+    opacity: 100%;
+    transition-duration: 0.8s;
+}
+
+.JHBehind {
+
+    position: absolute;
+    width: 450px;
+    height: 100px;
+    left: calc(25% - 450px/2 + 1px);
+    top: 737px;
+    
+}
+
+.TroffixBehind {
+    position: absolute;
+    width: 450px;
+    height: 100px;
+    left: calc(50% - 450px/2 + 1px);
+    top: 737px;
+}
+
+.dominbehind {
+    position: absolute;
+    width: 450px;
+    height: 100px;
+    left: calc(75% - 450px/2 + 1px);
+    top: 737px;
+    
+}
+
+.JHText {
+    position: absolute;
+    width: 137px;
+    height: 48px;
+    left: calc(29% - 137px/2 + 1px);
+    top: 725px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.ModTextJH {
+    position: absolute;
+    width: 98px;
+    height: 48px;
+    left: calc(23% - 98px/2 + 1px);
+    top: 725px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #6A94FF;
+}
+
+.JHHead {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: calc(18% - 64px/2 + 1px);
+    top: 755px;
+}
+
+.JH {
+    opacity: 70%;
+    transition-duration: 0.8s;
+}
+
+.JH:hover {
+    opacity: 100%;
+    transition-duration: 0.8s;
+}
+
+.TroffixHead {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: calc(43% - 64px/2 + 1px);
+    top: 755px;
+}
+
+.TroffixText {
+    position: absolute;
+    width: 155px;
+    height: 48px;
+    left: calc(54% - 155px/2 + 1px);
+    top: 725px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+
+.ModTextTroffix {
+
+    position: absolute;
+    width: 98px;
+    height: 48px;
+    left: calc(48% - 98px/2 + 1px);
+    top: 725px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    
+    color: #6A94FF;
+    
+}
+
+.Troffix {
+    opacity: 70%;
+    transition-duration: 0.8s;
+}
+
+.Troffix:hover {
+    opacity: 100%;
+    transition-duration: 0.8s;
+}
+
+.DominHead {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: calc(68% - 64px/2 + 1px);
+    top: 753px;
+}
+
+.DominText {
+    position: absolute;
+    width: 241px;
+    height: 48px;
+    left: calc(79% - 241px/2 + 1px);
+    top: 725px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.ModTextDomin {
+    position: absolute;
+    width: 98px;
+    height: 48px;
+    left: calc(72% - 98px/2 + 1px);
+    top: 725px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #6A94FF;
+}
+
+.Domin {
+    opacity: 70%;
+    transition-duration: 0.8s;
+}
+
+.Domin:hover {
+    opacity: 100%;
+    transition-duration: 0.8s;
+}
+
+
+
