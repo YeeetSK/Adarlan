@@ -9,8 +9,11 @@ body {
 @media (min-width: 1000px) and (min-height: 500px) {
     body {
       zoom: 60%; /* Adjust the zoom level as per your requirement */
+    
     }
   }
+
+
   
 
   @media (min-width: 1800px) and (min-height: 931px){
@@ -690,5 +693,98 @@ body {
     transition-duration: 0.8s;
 }
 
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-1900px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+.AteamHeader {
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    
+    transform: translateX(-2000px);
+
+}
+
+.Agro {
+    animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+    
+    transform: translateX(-1300px);
+}
+
+.Luk {
+    animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+    
+    transform: translateX(-1900px);
+}
+
+.Yeet {
+    animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    
+    transform: translateX(-1900px);
+
+}
+
+
+.JH {
+    animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards;
+    
+    transform: translateX(-1900px);
+}
+
+.Troffix {
+    animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+    
+    transform: translateX(-1900px);
+}
+
+.Domin {
+    animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+    
+    transform: translateX(-2200px);
+}
 
 
