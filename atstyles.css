@@ -8,7 +8,7 @@ body {
 
 @media (min-width: 1000px) and (min-height: 500px) {
     body {
-      zoom: 60%; /* Adjust the zoom level as per your requirement */
+      zoom: 58%; /* Adjust the zoom level as per your requirement */
     
     }
   }
@@ -18,7 +18,7 @@ body {
 
   @media (min-width: 1800px) and (min-height: 931px){
     body {
-      zoom: 83%; /* Adjust the zoom level as per your requirement */
+      zoom: 81%; /* Adjust the zoom level as per your requirement */
     }
   }
   
